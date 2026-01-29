@@ -15,7 +15,7 @@ export const useSessionService = () => {
         // TODO: implement ui for session settings
         const sessionSettings = generateRandomSessionSettings()
 
-        fetch(`${appConfig.backendUrl}/api/session`, {
+        fetch(`${appConfig.backendUrl}/session`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

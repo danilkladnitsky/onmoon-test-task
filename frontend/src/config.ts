@@ -1,4 +1,4 @@
 export const appConfig = {
-    socketUrl: import.meta.env.PROD ? "wss://onmoon.kladnitsky.ru:3000" : 'ws://localhost:3000',
-    backendUrl: import.meta.env.PROD ? "https://onmoon.kladnitsky.ru:3000" : 'http://localhost:3000',
+    socketUrl: "wss://onmoon.kladnitsky.ru/ws",
+    backendUrl: "https://onmoon.kladnitsky.ru/api",
 }
