@@ -19,6 +19,7 @@ export default defineConfig({
     },
   },
   server: {
+    allowedHosts: ['onmoon.kladnitsky.ru', 'localhost', '127.0.0.1'],
     fs: {
       allow: ['..'],
     },
